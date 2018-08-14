@@ -1,0 +1,13 @@
+ create database bustickt;
+ use bustickt;
+ create table buses (
+    startingplace varchar(90),
+    startingtime varchar(90),
+    finishingplace varchar(90),
+    finishingtime varchar(90));
+
+insert into buses values("Badulla","10.00","Rathnapura","1.00");
+
+insert into buses values("Pabahinna","12.00","Kaluthara","5.00");
+
+
